@@ -1,0 +1,21 @@
+TW doni.h
+RANG AJOL() {
+    RANG a = 5, d = 3.
+    RANG b = 10.
+    PAIS c = 5.9.
+    RANG sum = a + b.
+    ONG (sum > 12) {
+        FUNU "Sum is greater than 12".
+    } ONGYAKHAI {
+        FUNU "Sum is not greater than 12".
+    }
+    GHUR RANG i = 0. i < 5. i = i + 1 {
+        FUNU "Iteration: " + i.
+    }
+    // This is a single-line comment
+    /*
+        This is multiple line comment
+        This is multiple line comment
+    */
+    JA 0.
+}
