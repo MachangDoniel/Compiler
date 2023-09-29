@@ -1,21 +1,39 @@
-TW doni.h
-RANG AJOL() {
-    RANG a = 5, d = 3.
-    RANG b = 10.
-    PAIS c = 5.9.
-    RANG sum = a + b.
-    ONG (sum > 12) {
-        FUNU "Sum is greater than 12".
-    } ONGYAKHAI {
-        FUNU "Sum is not greater than 12".
+// This is a sample program in your custom language
+TW sample.h
+
+AJOL
+{
+    RANG a = 5.
+    PAIS b = 3.14.
+    KOK c = "Hello, World!".
+
+    ONG (a < 10)
+    {
+        FUNU("Value of a: ", a).
+        a = a + 1.
     }
-    GHUR RANG i = 0. i < 5. i = i + 1 {
-        FUNU "Iteration: " + i.
+
+    ONGYA (b > 3.0)
+    {
+        FUNU("Value of b: ", b).
     }
-    // This is a single-line comment
-    /*
-        This is multiple line comment
-        This is multiple line comment
-    */
-    JA 0.
+    ONGYAKHAI
+    {
+        FUNU("Value of b is not greater than 3.0").
+    }
+
+    GHUR (c != "")
+    {
+        FUNU("Value of c: ", c).
+    }
+    GHURAI (c == "Goodbye")
+    {
+        FUNU("Value of c is Goodbye").
+    }
+    ONGYAKHAI
+    {
+        FUNU("Value of c is neither empty nor Goodbye").
+    }
 }
+
+JA 0.

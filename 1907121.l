@@ -18,6 +18,7 @@ HEADER							"TW"[ ]++[^\n]+[.h][\n]
 "ONG"           				{ printf("IF\n"); }
 "ONGYA"         				{ printf("ELSE IF\n"); }
 "ONGYAKHAI"         			{ printf("ELSE\n"); }
+"LA"        					{ printf("SCANF\n"); }
 "FUNU"        					{ printf("PRINT\n"); }
 "JA"        					{ printf("RETURN\n"); }
 "AJOL"          				{ printf("MAIN\n"); }
