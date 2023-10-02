@@ -139,12 +139,13 @@ int yywrap(){
 	return 1;
 }
 
-int yywrap(){
-	return 1;
-}
-
 int main(){
-	yyin=fopen("input.txt","r");
+	yyin=fopen("input1.txt","r");
 	yylex();
+    cout<<"WELCOME TO MAIN FUNCTION"<<endl;
+    cout<<"Variable: "<<variable<<endl;
+    cout<<"Keyword: "<<keyword<<endl;
+    cout<<"Statement: "<<statement<<endl;
+    cout<<endl;
 	return 0;
 }
