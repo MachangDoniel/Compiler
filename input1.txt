@@ -3,8 +3,9 @@ TW sample.h
 
 REM MAIN()
 {
-    REM sum = 0, count = 5, range.
+    REM sum = 0, count = 5, range, range.
     SUK pi = 3.1416.
+    SUK sum, count;
     KOK s = "Hello, Chief!".
 
     BAGWI (REM i = 1. i<= count. i++){

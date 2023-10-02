@@ -1,24 +1,27 @@
 
 # Compiler
-In this project, we'll learn how to build a compiler using flex.
+In this project, we'll learn how to build a compiler.
 
 
 
 # Installation
 Download those tools.
-1. VS code https://code.visualstudio.com/download
-2. Flex https://en.freedownloadmanager.org/Windows-PC/Flex-Windows-Lex-and-Yacc-FREE.html
+1. [VS code](https://code.visualstudio.com/download) or any Editor
+2. [Flex](https://en.freedownloadmanager.org/Windows-PC/Flex-Windows-Lex-and-Yacc-FREE.html)
 
 
 ## How to run
 
 1. Clone the project in your local repository.
-2. Open the copied project folder in your code editor(VS code).
-3. Open a terminal on VS code or command prompt(cmd) to your folder.
+```bash
+  git clone https://github.com/MachangDoniel/Compiler.git
+```
+2. Open the copied project folder in your code editor ([VS code](https://code.visualstudio.com/download)).
+3. Open a terminal on [VS code](https://code.visualstudio.com/download) or command prompt(cmd) to your folder.
 
 
 
-Check your flex version
+Check your [Flex](https://en.freedownloadmanager.org/Windows-PC/Flex-Windows-Lex-and-Yacc-FREE.html) version
 ```bash
   flex --version
 ```
@@ -36,7 +39,12 @@ For cpp Program
 ```bash
   g++ lex.yy.c -o output
 ```
-Run the program
+Run the program 
+###### in command prompt
 ```bash
   output
+```
+###### in VS code terminal
+```bash
+  ./output
 ```
