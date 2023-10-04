@@ -118,7 +118,7 @@ HEADER							"TW"[ ]++[^\n]+[.h][\n]
 
 
 \"[^\"]*\"						{ printf("LITERAL\n"); }
-{ID}   							{ printf("IDENTIFIER\n"); mp[yytext]?(printf("%s variable is declared before.\n",yytext)):(variableInitializeCheckflag?variable++,mp[yytext]++:variable);}
+{ID}   							{ printf("IDENTIFIER\n"); variableInitializeCheckflag?(!mp[yytext]?(printf("%s variable is initialized.\n",yytext)):(printf("%s variable is already declared.\n",yytext)),mp[yytext]++):(variable++,mp[yytext]++); }
 [+-]?{DIGIT}+            		{ printf("INTEGER\n"); }
 [+-]?{DIGIT}+[.]{DIGIT}+		{ printf("FLOAT\n"); }
 [ \t\n]+        
@@ -147,5 +147,4 @@ int main(){
     cout<<"Keyword: "<<keyword<<endl;
     cout<<"Statement: "<<statement<<endl;
     cout<<endl;
-	return 0;
 }
