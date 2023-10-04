@@ -522,9 +522,9 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "Assignment1.l"
+#line 1 "1907121.l"
 #define INITIAL 0
-#line 2 "Assignment1.l"
+#line 2 "1907121.l"
 	#include<bits/stdc++.h>
 	using namespace std;
     int variable=0,keyword=0,statement=0;
@@ -693,7 +693,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 27 "Assignment1.l"
+#line 27 "1907121.l"
 
 
 #line 700 "lex.yy.c"
@@ -781,447 +781,447 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 29 "Assignment1.l"
+#line 29 "1907121.l"
 { printf("IMPORT HEADER\n"); }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 30 "Assignment1.l"
+#line 30 "1907121.l"
 { printf("MAIN\n"); }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 32 "Assignment1.l"
+#line 32 "1907121.l"
 { printf("DATA_TYPE_INT\n");  variableInitializeCheckflag=true; keyword++;}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 33 "Assignment1.l"
+#line 33 "1907121.l"
 { printf("DATA_TYPE_FLOAT\n");   variableInitializeCheckflag=true; keyword++;}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 34 "Assignment1.l"
+#line 34 "1907121.l"
 { printf("DATA_TYPE_STRING\n");  variableInitializeCheckflag=true; keyword++;}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 35 "Assignment1.l"
+#line 35 "1907121.l"
 { printf("DATA_TYPE_CHAR\n");   variableInitializeCheckflag=true; keyword++;}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 36 "Assignment1.l"
+#line 36 "1907121.l"
 { printf("DATA_TYPE_BOOL\n");   variableInitializeCheckflag=true; keyword++;}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 37 "Assignment1.l"
+#line 37 "1907121.l"
 { printf("DATA_TYPE_VOID\n");   variableInitializeCheckflag=true; keyword++;}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 39 "Assignment1.l"
+#line 39 "1907121.l"
 { printf("IF\n"); keyword++;}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 40 "Assignment1.l"
+#line 40 "1907121.l"
 { printf("ELSE IF\n");  keyword++;}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 41 "Assignment1.l"
+#line 41 "1907121.l"
 { printf("ELSE\n");  keyword++;}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 42 "Assignment1.l"
+#line 42 "1907121.l"
 { printf("SWITCH\n");  keyword++;}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 43 "Assignment1.l"
+#line 43 "1907121.l"
 { printf("CASE\n");  keyword++;}
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 44 "Assignment1.l"
+#line 44 "1907121.l"
 { printf("DEFAULT\n");  keyword++;}
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 45 "Assignment1.l"
+#line 45 "1907121.l"
 { printf("FOR\n");  keyword++;}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 46 "Assignment1.l"
+#line 46 "1907121.l"
 { printf("WHILE\n");  keyword++;}
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 47 "Assignment1.l"
+#line 47 "1907121.l"
 { printf("DO\n");  keyword++;}
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 48 "Assignment1.l"
+#line 48 "1907121.l"
 { printf("BREAK\n");  keyword++;}
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 49 "Assignment1.l"
+#line 49 "1907121.l"
 { printf("CONTINUE\n");  keyword++;}
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 50 "Assignment1.l"
+#line 50 "1907121.l"
 { printf("RETURN\n");  keyword++;}
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 51 "Assignment1.l"
+#line 51 "1907121.l"
 { printf("GOTO\n");  keyword++;}
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 52 "Assignment1.l"
+#line 52 "1907121.l"
 { printf("SCANF\n");  keyword++;}
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 53 "Assignment1.l"
+#line 53 "1907121.l"
 { printf("PRINT\n");  keyword++;}
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 55 "Assignment1.l"
+#line 55 "1907121.l"
 { printf("AUTO\n");  keyword++;}
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 56 "Assignment1.l"
+#line 56 "1907121.l"
 { printf("STATIC\n");  keyword++;}
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 57 "Assignment1.l"
+#line 57 "1907121.l"
 { printf("REGISTER\n");  keyword++;}
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 58 "Assignment1.l"
+#line 58 "1907121.l"
 { printf("EXTERN\n");  keyword++;}
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 60 "Assignment1.l"
+#line 60 "1907121.l"
 { printf("CLASS\n");  keyword++;}
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 61 "Assignment1.l"
+#line 61 "1907121.l"
 { printf("STRUCT\n");  keyword++;}
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 62 "Assignment1.l"
+#line 62 "1907121.l"
 { printf("ENUM\n");  keyword++;}
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 63 "Assignment1.l"
+#line 63 "1907121.l"
 { printf("NAMESPACE\n");  keyword++;}
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 64 "Assignment1.l"
+#line 64 "1907121.l"
 { printf("TEMPLATE\n");  keyword++;}
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 65 "Assignment1.l"
+#line 65 "1907121.l"
 { printf("NEW\n");  keyword++;}
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 66 "Assignment1.l"
+#line 66 "1907121.l"
 { printf("DELETE\n");  keyword++;}
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 67 "Assignment1.l"
+#line 67 "1907121.l"
 { printf("THIS\n");  keyword++;}
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
-#line 68 "Assignment1.l"
+#line 68 "1907121.l"
 { printf("CONST\n");  keyword++;}
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 69 "Assignment1.l"
+#line 69 "1907121.l"
 { printf("SIZEOF\n");  keyword++;}
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 70 "Assignment1.l"
+#line 70 "1907121.l"
 { printf("OPERATOR\n");  keyword++;}
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 71 "Assignment1.l"
+#line 71 "1907121.l"
 { printf("FRIEND\n");  keyword++;}
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 72 "Assignment1.l"
+#line 72 "1907121.l"
 { printf("VIRTUAL\n");  keyword++;}
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 73 "Assignment1.l"
+#line 73 "1907121.l"
 { printf("EXPLICIT\n");  keyword++;}
 	YY_BREAK
 case 42:
 YY_RULE_SETUP
-#line 74 "Assignment1.l"
+#line 74 "1907121.l"
 { printf("TRY\n");  keyword++;}
 	YY_BREAK
 case 43:
 YY_RULE_SETUP
-#line 75 "Assignment1.l"
+#line 75 "1907121.l"
 { printf("CATCH\n");  keyword++;}
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 76 "Assignment1.l"
+#line 76 "1907121.l"
 { printf("THROW\n");  keyword++;}
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 77 "Assignment1.l"
+#line 77 "1907121.l"
 { printf("TYPEID\n");  keyword++;}
 	YY_BREAK
 case 46:
 YY_RULE_SETUP
-#line 78 "Assignment1.l"
+#line 78 "1907121.l"
 { printf("MUTABLE\n");  keyword++;}
 	YY_BREAK
 case 47:
 YY_RULE_SETUP
-#line 80 "Assignment1.l"
+#line 80 "1907121.l"
 { printf("PLUS\n"); }
 	YY_BREAK
 case 48:
 YY_RULE_SETUP
-#line 81 "Assignment1.l"
+#line 81 "1907121.l"
 { printf("MINUS\n"); }
 	YY_BREAK
 case 49:
 YY_RULE_SETUP
-#line 82 "Assignment1.l"
+#line 82 "1907121.l"
 { printf("MULTIPLICATION\n"); }
 	YY_BREAK
 case 50:
 YY_RULE_SETUP
-#line 83 "Assignment1.l"
+#line 83 "1907121.l"
 { printf("DIVISION\n"); }
 	YY_BREAK
 case 51:
 YY_RULE_SETUP
-#line 84 "Assignment1.l"
+#line 84 "1907121.l"
 { printf("MOD\n"); }
 	YY_BREAK
 case 52:
 YY_RULE_SETUP
-#line 87 "Assignment1.l"
+#line 87 "1907121.l"
 { printf("EQUALS\n"); }
 	YY_BREAK
 case 53:
 YY_RULE_SETUP
-#line 88 "Assignment1.l"
+#line 88 "1907121.l"
 { printf("NOT EQUALS\n"); }
 	YY_BREAK
 case 54:
 YY_RULE_SETUP
-#line 89 "Assignment1.l"
+#line 89 "1907121.l"
 { printf("LESS_THAN\n"); }
 	YY_BREAK
 case 55:
 YY_RULE_SETUP
-#line 90 "Assignment1.l"
+#line 90 "1907121.l"
 { printf("GREATER_THAN\n"); }
 	YY_BREAK
 case 56:
 YY_RULE_SETUP
-#line 91 "Assignment1.l"
+#line 91 "1907121.l"
 { printf("LESS_THAN_OR_EQUAL\n"); }
 	YY_BREAK
 case 57:
 YY_RULE_SETUP
-#line 92 "Assignment1.l"
+#line 92 "1907121.l"
 { printf("GREATER_THAN_OR_EQUAL\n"); }
 	YY_BREAK
 case 58:
 YY_RULE_SETUP
-#line 95 "Assignment1.l"
+#line 95 "1907121.l"
 { printf("LOGICAL AND\n"); }
 	YY_BREAK
 case 59:
 YY_RULE_SETUP
-#line 96 "Assignment1.l"
+#line 96 "1907121.l"
 { printf("LOGICAL OR\n"); }
 	YY_BREAK
 case 60:
 YY_RULE_SETUP
-#line 97 "Assignment1.l"
+#line 97 "1907121.l"
 { printf("LOGICAL NOT\n"); }
 	YY_BREAK
 case 61:
 YY_RULE_SETUP
-#line 100 "Assignment1.l"
+#line 100 "1907121.l"
 { printf("ASSIGNMENT\n"); }
 	YY_BREAK
 case 62:
 YY_RULE_SETUP
-#line 101 "Assignment1.l"
+#line 101 "1907121.l"
 { printf("ADDITION ASSIGNMENT\n"); }
 	YY_BREAK
 case 63:
 YY_RULE_SETUP
-#line 102 "Assignment1.l"
+#line 102 "1907121.l"
 { printf("SUBTRACTION ASSIGNMENT\n"); }
 	YY_BREAK
 case 64:
 YY_RULE_SETUP
-#line 103 "Assignment1.l"
+#line 103 "1907121.l"
 { printf("MULTIPLICATION ASSIGNMENT\n"); }
 	YY_BREAK
 case 65:
 YY_RULE_SETUP
-#line 104 "Assignment1.l"
+#line 104 "1907121.l"
 { printf("DIVISION ASSIGNMENT\n"); }
 	YY_BREAK
 case 66:
 YY_RULE_SETUP
-#line 105 "Assignment1.l"
+#line 105 "1907121.l"
 { printf("MODULUS ASSIGNMENT\n"); }
 	YY_BREAK
 case 67:
 YY_RULE_SETUP
-#line 108 "Assignment1.l"
+#line 108 "1907121.l"
 { printf("INCREMENT\n"); }
 	YY_BREAK
 case 68:
 YY_RULE_SETUP
-#line 109 "Assignment1.l"
+#line 109 "1907121.l"
 { printf("DECREMENT\n"); }
 	YY_BREAK
 case 69:
 YY_RULE_SETUP
-#line 112 "Assignment1.l"
+#line 112 "1907121.l"
 { printf("BITWISE AND\n"); }
 	YY_BREAK
 case 70:
 YY_RULE_SETUP
-#line 113 "Assignment1.l"
+#line 113 "1907121.l"
 { printf("BITWISE OR\n"); }
 	YY_BREAK
 case 71:
 YY_RULE_SETUP
-#line 114 "Assignment1.l"
+#line 114 "1907121.l"
 { printf("BITWISE XOR\n"); }
 	YY_BREAK
 case 72:
 YY_RULE_SETUP
-#line 115 "Assignment1.l"
+#line 115 "1907121.l"
 { printf("BITWISE NOT\n"); }
 	YY_BREAK
 case 73:
 YY_RULE_SETUP
-#line 116 "Assignment1.l"
+#line 116 "1907121.l"
 { printf("LEFTSHIFT\n"); }
 	YY_BREAK
 case 74:
 YY_RULE_SETUP
-#line 117 "Assignment1.l"
+#line 117 "1907121.l"
 { printf("RIGHTSHIFT\n"); }
 	YY_BREAK
 case 75:
 YY_RULE_SETUP
-#line 120 "Assignment1.l"
+#line 120 "1907121.l"
 { printf("LITERAL\n"); }
 	YY_BREAK
 case 76:
 YY_RULE_SETUP
-#line 121 "Assignment1.l"
-{ printf("IDENTIFIER\n"); mp[yytext]?(printf("%s variable is declared before.\n",yytext)):(variableInitializeCheckflag?variable++,mp[yytext]++:variable);}
+#line 121 "1907121.l"
+{ printf("IDENTIFIER\n"); variableInitializeCheckflag?(!mp[yytext]?(printf("%s variable is initialized.\n",yytext)):(printf("%s variable is already declared.\n",yytext)),mp[yytext]++):(variable++,mp[yytext]++); }
 	YY_BREAK
 case 77:
 YY_RULE_SETUP
-#line 122 "Assignment1.l"
+#line 122 "1907121.l"
 { printf("INTEGER\n"); }
 	YY_BREAK
 case 78:
 YY_RULE_SETUP
-#line 123 "Assignment1.l"
+#line 123 "1907121.l"
 { printf("FLOAT\n"); }
 	YY_BREAK
 case 79:
 YY_RULE_SETUP
-#line 124 "Assignment1.l"
+#line 124 "1907121.l"
 
 	YY_BREAK
 case 80:
 YY_RULE_SETUP
-#line 125 "Assignment1.l"
+#line 125 "1907121.l"
 { printf("SINGLE_LINE_COMMENT\n"); }
 	YY_BREAK
 case 81:
 YY_RULE_SETUP
-#line 126 "Assignment1.l"
+#line 126 "1907121.l"
 { printf("MULTI_LINE_COMMENT\n"); }
 	YY_BREAK
 case 82:
 YY_RULE_SETUP
-#line 127 "Assignment1.l"
+#line 127 "1907121.l"
 { printf("END_OF_STATEMENT\n"); variableInitializeCheckflag=false;statement++;}
 	YY_BREAK
 case 83:
 YY_RULE_SETUP
-#line 128 "Assignment1.l"
+#line 128 "1907121.l"
 { printf("MORE_STATEMENT\n"); }
 	YY_BREAK
 case 84:
 YY_RULE_SETUP
-#line 129 "Assignment1.l"
+#line 129 "1907121.l"
 { printf("PARENTHESIS_START\n"); }
 	YY_BREAK
 case 85:
 YY_RULE_SETUP
-#line 130 "Assignment1.l"
+#line 130 "1907121.l"
 { printf("PARENTHESIS_END\n"); }
 	YY_BREAK
 case 86:
 YY_RULE_SETUP
-#line 131 "Assignment1.l"
+#line 131 "1907121.l"
 { printf("BRACES_START\n"); }
 	YY_BREAK
 case 87:
 YY_RULE_SETUP
-#line 132 "Assignment1.l"
+#line 132 "1907121.l"
 { printf("BRACES_END\n"); }
 	YY_BREAK
 case 88:
 YY_RULE_SETUP
-#line 134 "Assignment1.l"
+#line 134 "1907121.l"
 { printf("INVALID_CHARACTER: %s\n", yytext); variableInitializeCheckflag=false;}
 	YY_BREAK
 case 89:
 YY_RULE_SETUP
-#line 136 "Assignment1.l"
+#line 136 "1907121.l"
 ECHO;
 	YY_BREAK
 #line 1228 "lex.yy.c"
@@ -2110,7 +2110,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 136 "Assignment1.l"
+#line 136 "1907121.l"
 
 
 int yywrap(){
@@ -2118,12 +2118,7 @@ int yywrap(){
 }
 
 int main(){
-	yyin=fopen("input1.txt","r");
+	yyin=fopen("input.txt","r");
 	yylex();
-    cout<<"WELCOME TO MAIN FUNCTION"<<endl;
-    cout<<"Variable: "<<variable<<endl;
-    cout<<"Keyword: "<<keyword<<endl;
-    cout<<"Statement: "<<statement<<endl;
-    cout<<endl;
 	return 0;
 }
