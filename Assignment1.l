@@ -69,7 +69,7 @@ HEADER							"TW"[ ]++[^\n]+[.h][\n]
 "SIZEOF"           				{ printf("SIZEOF\n");  keyword++;}
 "OPERATOR"             			{ printf("OPERATOR\n");  keyword++;}
 "FRIEND"             			{ printf("FRIEND\n");  keyword++;}
-"VIRTUA"             			{ printf("VIRTUAL\n");  keyword++;}
+"VIRTUAL"             			{ printf("VIRTUAL\n");  keyword++;}
 "EXPLICIT"             			{ printf("EXPLICIT\n");  keyword++;}
 "TRY"           				{ printf("TRY\n");  keyword++;}
 "CATCH"            				{ printf("CATCH\n");  keyword++;}
