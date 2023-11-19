@@ -373,11 +373,12 @@ char *yytext;
 #line 1 "1907121.l"
 #define INITIAL 0
 #line 2 "1907121.l"
-#include <bits/stdc++.h>
-#include "1907121.tab.h"
-using namespace std;
-extern YYSTYPE yylval; 
-#line 381 "lex.yy.c"
+	#include <stdio.h>
+	#include <stdlib.h>
+	#include <math.h>
+	#include "1907121.tab.h"
+	//extern YYSTYPE yylval; 
+#line 382 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -528,8 +529,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 15 "1907121.l"
-
+#line 16 "1907121.l"
 
 #line 535 "lex.yy.c"
 
@@ -1552,3 +1552,4 @@ int main()
 	}
 #endif
 #line 27 "1907121.l"
+
