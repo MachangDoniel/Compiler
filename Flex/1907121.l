@@ -197,7 +197,7 @@ HEADER							"TW"[ ]++[^\n]+[.h][\n]
                                     // printf("FRIEND\n");  
                                     keyword++;
                                 }
-"VIRTUA"             			{ 
+"VIRTUAl"             			{ 
                                     // printf("VIRTUAL\n");  
                                     keyword++;
                                 }

@@ -21,8 +21,10 @@ The variable is 8
 ASSIGNATION: 
 The variable is 22
 
- sum has value 8
- simple has value 22
+This function reads the variable sum
+
+This function reads the variable simple
+
 Float variable
 The variable is f
 This function reads the variable f
@@ -48,7 +50,8 @@ The variable is z
 ASSIGNATION: 
 The variable is 10
 
- z has value 10
+This function reads the variable z
+
 INCREMENTING FOR LOOP: 
 for 1 to 5: 
 1 2 3 4 5 
@@ -57,11 +60,14 @@ for 5 to 1:
 5 4 3 2 1 
  A single line comment
 
- i has value 4
- i has value 4
+This function reads the variable i
+
+This function reads the variable i
+
 ELSE IF CONDITION:
 FALSE
- j has value 4
+This function reads the variable j
+
 ELSE CONDITION:
 IF CONDITION:
 FALSE
@@ -69,7 +75,7 @@ FALSE
 
  A single line comment
 
-Random value = 3013 
+Random value = 609 
  A single line comment
 
 Factorial of 5 is 120
@@ -160,13 +166,16 @@ The variable is 2
 ASSIGNATION: 
 The variable is 2
 
- a has value 20
- b has value 10
-Case no: 0
+This function reads the variable a
+
+This function reads the variable b
 
 Case no: 0
 
- k has value 2
+Case no: 0
+
+This function reads the variable k
+
 Default executed
 
 Switch Case demo.

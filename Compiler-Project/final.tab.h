@@ -42,52 +42,50 @@
      START = 258,
      INT = 259,
      CHAR = 260,
-     STRING = 261,
-     FLOAT = 262,
-     DOUBLE = 263,
-     SWITCH = 264,
-     CASE = 265,
-     DEFAULT = 266,
-     SORT = 267,
-     SWAP = 268,
-     COMBINATION = 269,
-     PERMUTATION = 270,
-     POW = 271,
-     RANDOM = 272,
-     SCAN = 273,
-     IF = 274,
-     ELIF = 275,
-     ELSE = 276,
-     WHILE = 277,
-     SIN = 278,
-     NSIN = 279,
-     COS = 280,
-     NCOS = 281,
-     TAN = 282,
-     NTAN = 283,
-     LOG2 = 284,
-     LOG10 = 285,
-     FACTOR = 286,
-     PRIME = 287,
-     OUTPUT = 288,
-     FOR = 289,
-     TO = 290,
-     INC = 291,
-     DEC = 292,
-     MAX = 293,
-     MIN = 294,
-     ID = 295,
-     NUM = 296,
-     PLUS = 297,
-     MINUS = 298,
-     MULTI = 299,
-     DIVI = 300,
-     EQUALS = 301,
-     NOTEQUAL = 302,
-     GT = 303,
-     GTE = 304,
-     LT = 305,
-     LTE = 306
+     FLOAT = 261,
+     DOUBLE = 262,
+     SWITCH = 263,
+     CASE = 264,
+     DEFAULT = 265,
+     SORT = 266,
+     SWAP = 267,
+     COMBINATION = 268,
+     PERMUTATION = 269,
+     POW = 270,
+     RANDOM = 271,
+     SCAN = 272,
+     IF = 273,
+     ELIF = 274,
+     ELSE = 275,
+     WHILE = 276,
+     SIN = 277,
+     BACKS = 278,
+     COS = 279,
+     BACKC = 280,
+     TAN = 281,
+     BACKT = 282,
+     LOG10 = 283,
+     FACTOR = 284,
+     ISPRIME = 285,
+     OUTPUT = 286,
+     REPEAT = 287,
+     TO = 288,
+     INC = 289,
+     DEC = 290,
+     MAX = 291,
+     MIN = 292,
+     ID = 293,
+     NUM = 294,
+     PLUS = 295,
+     MINUS = 296,
+     MULTI = 297,
+     DIVI = 298,
+     EQUALS = 299,
+     NOTEQUAL = 300,
+     GT = 301,
+     GOE = 302,
+     LT = 303,
+     LOE = 304
    };
 #endif
 
@@ -98,7 +96,7 @@ typedef union YYSTYPE
 {
 
 /* Line 1676 of yacc.c  */
-#line 52 "1907121.y"
+#line 51 "final.y"
 
     double var;
     char* varString;
@@ -106,7 +104,7 @@ typedef union YYSTYPE
 
 
 /* Line 1676 of yacc.c  */
-#line 110 "1907121.tab.h"
+#line 108 "final.tab.h"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */

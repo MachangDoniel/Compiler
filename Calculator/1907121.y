@@ -1,11 +1,15 @@
 %{
+#include <bits/stdc++.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
 #include <math.h>
 
+using namespace std;
+
+
 int yylex(void);
-void yyerror(char *s);
+void yyerror(const char *);
 
 #define YYSTYPE double
 %}
@@ -42,7 +46,7 @@ int main() {
     return 0;
 }
 
-void yyerror(char *s) {
-    printf("%s", s);
+void yyerror(const char *s) {
+    cout << s;
     // You might want to exit or handle the error in a different way here
 }
