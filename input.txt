@@ -97,8 +97,6 @@ hem()
     //swap function
    xchange(57,75);
 
-   sort(2,5,6,3,1);
-
     /* switchcase */
     rem a,b,k,l;
     a = 20;

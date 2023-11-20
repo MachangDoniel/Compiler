@@ -48,46 +48,45 @@
      SWITCH = 264,
      CASE = 265,
      DEFAULT = 266,
-     SORT = 267,
-     SWAP = 268,
-     COMBINATION = 269,
-     PERMUTATION = 270,
-     POW = 271,
-     RANDOM = 272,
-     SCAN = 273,
-     IF = 274,
-     ELIF = 275,
-     ELSE = 276,
-     WHILE = 277,
-     SIN = 278,
-     NSIN = 279,
-     COS = 280,
-     NCOS = 281,
-     TAN = 282,
-     NTAN = 283,
-     LOG2 = 284,
-     LOG10 = 285,
-     FACTOR = 286,
-     PRIME = 287,
-     OUTPUT = 288,
-     FOR = 289,
-     TO = 290,
-     INC = 291,
-     DEC = 292,
-     MAX = 293,
-     MIN = 294,
-     ID = 295,
-     NUM = 296,
-     PLUS = 297,
-     MINUS = 298,
-     MULTI = 299,
-     DIVI = 300,
-     EQUALS = 301,
-     NOTEQUAL = 302,
-     GT = 303,
-     GTE = 304,
-     LT = 305,
-     LTE = 306
+     SWAP = 267,
+     COMBINATION = 268,
+     PERMUTATION = 269,
+     POW = 270,
+     RANDOM = 271,
+     SCAN = 272,
+     IF = 273,
+     ELIF = 274,
+     ELSE = 275,
+     WHILE = 276,
+     SIN = 277,
+     NSIN = 278,
+     COS = 279,
+     NCOS = 280,
+     TAN = 281,
+     NTAN = 282,
+     LOG2 = 283,
+     LOG10 = 284,
+     FACTOR = 285,
+     PRIME = 286,
+     OUTPUT = 287,
+     FOR = 288,
+     TO = 289,
+     INC = 290,
+     DEC = 291,
+     MAX = 292,
+     MIN = 293,
+     ID = 294,
+     NUM = 295,
+     PLUS = 296,
+     MINUS = 297,
+     MULTI = 298,
+     DIVI = 299,
+     EQUALS = 300,
+     NOTEQUAL = 301,
+     GT = 302,
+     GTE = 303,
+     LT = 304,
+     LTE = 305
    };
 #endif
 
@@ -98,7 +97,7 @@ typedef union YYSTYPE
 {
 
 /* Line 1676 of yacc.c  */
-#line 52 "1907121.y"
+#line 54 "1907121.y"
 
     double var;
     char* varString;
@@ -106,7 +105,7 @@ typedef union YYSTYPE
 
 
 /* Line 1676 of yacc.c  */
-#line 110 "1907121.tab.h"
+#line 109 "1907121.tab.h"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
