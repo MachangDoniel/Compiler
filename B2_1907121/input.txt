@@ -1,0 +1,118 @@
+/* Owner: Doniel Tripura(1907121)  */
+
+tw stdio.h
+
+
+hem()
+(
+    //type section
+    rem i;
+    i = 4;
+    rem j;
+    j = 4;
+
+    rem sum,simple;
+    sum= i + j ;
+    sum= i - j ;
+    simple = 4 + 6 * 3;
+    simple = 6 / 3;
+    la(sum);
+    la(simple);
+
+    suk f;
+    la (f);
+    f= 0.9;
+
+    kokthai c;
+    dsuk d;
+
+    //loop section
+
+    //while
+    khaitong (6);
+
+    //for
+    ongkhai {1 , 5 , ++1}
+    (
+        rem z;
+        z = 10;
+        la(z);
+    )
+    ongkhai {1 , 5 , 1++} ()
+    ongkhai {5 , 1, --1} ()
+    ongkhai {5 , 1, 1--} ()
+
+    //if else if else
+    imo (i > j)
+    (
+        la(i);
+    )
+    imoya ( i < j)
+    (
+        la(i);
+    )
+    imoyakhai
+    (
+        la(j);
+    )
+
+
+    //SOME FUNTIONS:
+    //random number taking
+    random(32668, 2);
+    
+    //factorial
+    !(5);
+
+    //maximum
+    max(i, sum);
+
+    //Minimum
+    min(i,sum);
+
+    //prime 
+    prime(35);
+    prime(37);
+
+    //power
+    power(2,3);
+
+    //some trigonometric operation
+    suk s;
+    s=tan(10);
+    s=cos(10);
+    s=sin(10);
+    s=log2(10);
+    s=log10(10);
+    s= nsin(0.5);
+    s= ntan(1.0);
+    s=ncos(0.5);
+
+    //combination function
+    C(5,3);
+    
+    //permutation function
+    P(5,3);
+
+    //swap function
+   xchange(57,75);
+
+    /* switchcase */
+    rem a,b,k,l;
+    a = 20;
+    b = 10;
+    k = 2;
+    l = 2;
+    switch(l){
+        case 1 {
+            la(a);
+        }
+        case 2 {
+            la(b);
+        }
+        default {
+            la(k);
+        }
+    }
+    rem g;
+)
